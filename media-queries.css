@@ -1,0 +1,70 @@
+
+@media (min-width: 600px) and (max-width: 900px) {
+    .section {
+        flex-direction: column;
+    }
+    .left-inputs,
+    .right-inputs {
+        width: 100%;
+    }
+    .checkbox-column {
+        margin-top: 20px;
+    }
+    
+}
+
+@media (max-width: 599px) {
+    .section {
+        flex-direction: column;
+    }
+    .left-inputs,
+    .right-inputs {
+        width: 100%;
+    }
+    .checkbox-column {
+        align-items: flex-start;
+        margin-top: 20px;
+    }
+    .checkbox-group {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .button-container {
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 0;
+    }
+    .form-row {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+    .form-group {
+        display: flex;
+        align-items: center; 
+    }
+    .form-image {
+        height: 25px;
+        margin-right: 10px;
+    }
+    .password-row{
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        width: calc(100% - 65px);
+    }
+    .form-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+    }
+}
+
+
+
+
+

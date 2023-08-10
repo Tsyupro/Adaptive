@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media-queries.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <form class="registration-form">
+            <div class="section">
+                <div class="left-inputs">
+                    <h3>Registration form</h3>
+                    <div class="form-row-icon">
+                        <img class="form-image" src="img/username.png" alt="username icon">
+                        <input type="text" name="username" placeholder="Username">
+                    </div>
+                    <div class="form-row-icon">
+                        <img class="form-image" src="img/email.png" alt="Email icon">
+                        <input type="email" name="email" placeholder="Email address">
+                    </div>
+                    <div class="form-row-icon">
+                        <img class="form-image form-image-password" src="img/pswd.png" alt="Password icon">
+                        <div class="password-row">
+                            <input type="password" name="password" placeholder="Password">
+                            <input type="password" name="ConfrimPassword" placeholder="Confrim Password">
+                        </div>
+                    </div>
+                </div>
+                <div class="right-inputs">
+                    <h3>Personal Details</h3>
+                    <div class="form-row">
+                        <input type="text" name="firstname" placeholder="First name">
+                        <input type="text" name="lastname" placeholder="Last name">
+                    </div>
+                    <div class="form-row">
+                        <select>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                        <input type="date" name="date1" placeholder="mm/dd/yyyy">
+                    </div>
+                </div>
+            </div>
+            <div class="checkbox-column">
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="myCheck1">Я погоджуюся зі всім</label>
+                </div>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="myCheck2">Ще раз погоджуюся</label>
+                </div>
+            </div>
+            <div class="button-container">
+                <button>Sumbit</button>
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
